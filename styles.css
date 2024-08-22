@@ -1,0 +1,146 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+
+*{
+    margin: 0;
+    font-family: "Oswald";
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*BARRA DE TITULO*/
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+header>h1{
+    font-size: 34pt;
+}
+header>ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header>ul>li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+header>ul>li:hover{
+    transition: .7s;
+    background-color: #0e1d41;
+    box-shadow:  20px 20px 70px #0e2252,
+             -20px -20px 70px #122e6e;
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 7px;
+}
+
+
+
+.columna1{
+    height: 190px;
+    float: left;
+    }
+
+.columna1{
+    width: 35%;
+    text-align: center;
+}
+
+
+.primer_parrafo{
+ 
+    width: 70%;
+    margin-left: 15%;
+    text-align: justify; 
+}
+
+#tlc_tit{
+    text-align: center;
+    font-size: 18pt;
+}
+
+p{
+    font-size: 13pt;
+}
+
+.paises{
+    list-style-type: none;
+    display: flex;
+    margin-left: 30%;
+}
+.paises>li{
+    margin-right: 10%;
+    font-size: 14pt;
+}
+.imagenes_paises{
+  
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.imagenes_paises>img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+@media (max-width:520px){
+    p, div>p{
+        margin-left: 80px;
+        margin-right: 40px;
+    }
+    .columna1{
+        display: none;
+    }
+
+    .paises{
+        text-decoration: none;
+        list-style-type: none;
+    }
+}
+
+.section_1{
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 18pt;
+    text-decoration: underline;
+    font-style: italic;
+}
