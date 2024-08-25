@@ -41,6 +41,14 @@ header>ul>li{
     
 }
 
+header>ul>li>a:hover{
+    color: rgb(255, 255, 255);
+}
+
+header>ul>li>a:checked{
+    color: black;
+}
+
 a{
     text-decoration: none;
     
@@ -117,6 +125,11 @@ p{
     border-radius: 20px;
 }
 
+#video_description{
+    width: 60%;
+    text-align: justify;
+    margin-left: 20%;
+}
 
 @media (max-width:520px){
     p, div>p{
@@ -140,4 +153,15 @@ p{
     font-size: 18pt;
     text-decoration: underline;
     font-style: italic;
+}
+
+
+
+footer{
+    margin-left: 2%;
+    flex: auto;
+    display: flex;
+}
+time{
+    margin-left: 2%;
 }

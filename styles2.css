@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+p,dt,dd,header{
+    font-family: "Oswald";
+}
+#Titulo{
+    text-align: center;
+}
+
+#Titulo>h1{
+    margin-top: 20px;
+    font-size: 32pt;
+    margin-bottom: 15px;
+}
+
+#Titulo>a{
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+}
+
+#Titulo>a:hover{
+    color: coral;
+}
+
+#sec2{
+    width: 30%;
+    margin-left: 35%;
+}
+
+#main{
+    text-align: center;
+}
+#img_ini{
+    width: 20rem; 
+    border-radius: 15px;
+}
+
+
+
+/*Section 1*/
+#img{
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+#section1{
+    display: flex;
+}
+
+#sec1div1{
+    width: 38%;
+    text-align: center;
+    margin-top: 60px;
+}
+ #sec1div2{
+    width: 40%;
+    text-align: justify;
+    font-size: 14pt;
+    padding-top: 50px;
+    font-family: "Oswald";
+ }
+
+
+ hr{
+    width: 80%;
+    height: 10px;
+    background-color: rgb(38, 35, 92);
+    border-radius: 10px;
+ }
+/*Section 1*/
+
+/*Section 2*/
+
+#info_caracteristicas{
+    font-family: sans-serif;
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+/*Section 2*/
+
+/*Section 3*/
+#sec3{
+    width: 65%;
+    margin-left: 15%;
+    margin-right: 10%;
+    display: flex;
+}
+
+#sec3div1{
+    width: 60%;
+    text-align: center;
+}
+#sec3>img{
+    width: 100%;
+}
+
+#sec3div2{
+    width: 40%;
+}
+#sec3div2>p{
+    font-size: 14pt;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+
+#main{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#article{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#article>h3{
+    font-family: "Oswald";
+}
+#article>ul>li{
+    font-family: "Oswald";
+}
+
+
+/*Section 3*/
+
+
+/*FOOTER*/
+
+footer{
+    background-color: rgb(38, 35, 92);
+    margin-top: 40px;
+    text-align: center;
+    padding: 2%;
+    
+}
+
+footer>nav>a{
+    text-decoration: none;
+    font-family:  sans-serif;
+    margin-left: 80px;
+    color: rgb(255, 255, 255);
+    
+}
+/*FOOTER*/
