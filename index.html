@@ -110,21 +110,20 @@
 
     <br><br>
     <section class="formulario">
-        <form action="" method="get" target="_blank">
-            <p id="titulo">Contáctenos:</p> <br>
-            <p>&nbsp;&nbsp;&nbsp; Nombre</p>
-            <input type="text" size="45" maxlength="30">
-            <p>&nbsp;&nbsp;&nbsp; Apellido</p>
-            <input type="text" size="45" maxlength="30">
-            <p>&nbsp;&nbsp;&nbsp; Correo</p>
-            <input type="text" size="45" maxlength="30">
-            <p>&nbsp;&nbsp;&nbsp; Telefono</p>
-            <input type="text" size="45" maxlength="10">
-            <p>&nbsp;&nbsp;&nbsp; Comentarios</p>
-            <textarea name="" id="comentarios_input" style="width: 70%;height:100px;"></textarea>
-            <br><br>
-            <input type="submit" value="ENVIAR" id="btn">
-        </form>
+        <h1>Contacto</h1>
+    <form id="contactForm">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" ><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" ><br><br>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" ></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <script src="app.js"></script>
     </section>
     <br><br><br><br><br>
     <footer>
