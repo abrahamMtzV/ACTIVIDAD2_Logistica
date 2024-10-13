@@ -1,3 +1,3 @@
 document.getElementById('contactForm').addEventListener('submit', function(event) {
-    alert("Mensaje enviado correctamente!");
+    alert("Mensaje enviado correctamente!!");
 });
